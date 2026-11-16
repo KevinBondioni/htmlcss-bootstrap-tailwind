@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pinco Pallo in Bootstrap</title>
-  <!-- INSIEME AL DOCENTE: qui va il link al CSS di Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+
+
 </head>
 
 <!-- Pagina 1: Pinco Pallo con Bootstrap. Zero CSS nostro: solo le classi di Bootstrap.
@@ -27,73 +30,91 @@
   </header>
 
   <!-- INSIEME AL DOCENTE: il contenitore della pagina -->
-  <main>
+  <main class="container">
     <!-- PASSO 1 · TOCCA A TE: questo div è la riga, i div subito dentro sono le colonne -->
-    <div>
+    <div class="row g-4">
       <div>
         <!-- INSIEME AL DOCENTE: la prima card -->
-        <div>
-          <div>
-            <img src="img/pic1.png" alt="Foto profilo" width="55" height="55">
+        <div class="card p-3 h-100">
+          <div class="d-flex align-items-center gap-2">
+            <img src="img/pic1.png" class="border border-black border-2" alt="Foto profilo" width="55" height="55">
             <h2>Pinco Pallo</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ex. Quasi aliquid quidem, magnam, architecto nam laboriosam quos, quaerat temporibus ut.</p>
+          <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ex. Quasi aliquid quidem,
+            magnam, architecto
+            nam laboriosam quos, quaerat temporibus ut.</p>
         </div>
       </div>
       <div>
         <!-- PASSO 2 · TOCCA A TE: da qui in giù le card come la prima, e il badge "Nuovo!" -->
-        <div>
-          <span>Nuovo!</span>
-          <div>
-            <img src="img/pic2.png" alt="Foto profilo" width="55" height="55">
+        <div class="card p-3 h-100">
+          <span
+            class="badge position-absolute top-0 end-0 translate-middle-y badge rounded-pill text-bg-danger text-uppercase">Nuovo!</span>
+          <div class="d-flex align-items-center gap-2">
+            <img src="img/pic2.png" class="border border-black border-2" alt="Foto profilo" width="55" height="55">
             <h2>Pinco Pallo</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ad saepe minus totam cum! Cumque dolor harum porro voluptatem beatae officia dolores quia, ipsa nemo! Veniam doloremque alias possimus ratione!</p>
+          <p class="pt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ad saepe minus totam cum!
+            Cumque dolor
+            harum porro voluptatem beatae officia dolores quia, ipsa nemo! Veniam doloremque alias possimus ratione!</p>
         </div>
       </div>
       <div>
-        <div>
-          <div>
-            <img src="img/pic3.png" alt="Foto profilo" width="55" height="55">
+        <div class="card p-3 h-100">
+          <div class="d-flex align-items-center gap-2">
+            <img src="img/pic3.png" class="border border-black border-2" alt="Foto profilo" width="55" height="55">
             <h2>Pinco Pallo</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit laboriosam quos, quaerat temporibus ut.</p>
+          <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit laboriosam quos, quaerat temporibus
+            ut.</p>
         </div>
       </div>
       <div>
-        <div>
-          <div>
-            <img src="img/pic4.png" alt="Foto profilo" width="55" height="55">
+        <div class="card p-3 h-100">
+          <div class="d-flex align-items-center gap-2">
+            <img src="img/pic4.png" class="border border-black border-2" alt="Foto profilo" width="55" height="55">
             <h2>Pinco Pallo</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ex. Quasi aliquid quidem, magnam, architecto nam laboriosam quos, quaerat temporibus ut.</p>
+          <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ex. Quasi aliquid quidem,
+            magnam, architecto
+            nam laboriosam quos, quaerat temporibus ut.</p>
         </div>
       </div>
       <div>
-        <div>
-          <div>
-            <img src="img/pic1.png" alt="Foto profilo" width="55" height="55">
+        <div class="card p-3 h-100">
+          <div class="d-flex align-items-center gap-2">
+            <img src="img/pic1.png" class="border border-black border-2" alt="Foto profilo" width="55" height="55">
             <h2>Pinco Pallo</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ex. Quasi aliquid quidem, magnam, architecto nam laboriosam quos, quaerat temporibus ut.</p>
+          <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ex. Quasi aliquid quidem,
+            magnam, architecto
+            nam laboriosam quos, quaerat temporibus ut.</p>
         </div>
       </div>
       <div>
-        <div>
-          <span>Nuovo!</span>
-          <div>
-            <img src="img/pic2.png" alt="Foto profilo" width="55" height="55">
+        <div class="card p-3 h-100">
+          <span
+            class="badge position-absolute top-0 end-0 translate-middle-y badge rounded-pill text-bg-danger text-uppercase">Nuovo!</span>
+          <div class="d-flex align-items-center gap-2">
+            <img src="img/pic2.png" class="border border-black border-2" alt="Foto profilo" width="55" height="55">
             <h2>Pinco Pallo</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ad saepe minus totam cum! Cumque dolor harum porro voluptatem beatae officia dolores quia, ipsa nemo! Veniam doloremque alias possimus ratione!</p>
+          <p class="pt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ad saepe minus totam cum!
+            Cumque dolor
+            harum porro voluptatem beatae officia dolores quia, ipsa nemo! Veniam doloremque alias possimus ratione!</p>
         </div>
       </div>
       <!-- PASSO 3 · TOCCA A TE: il banner. Il div esterno sta nella riga, il colore va su quello interno -->
       <div>
-        <div>Pubblicità: la tua app, a metà prezzo fino a domenica</div>
+        <div class="card p-2 text-center fw-bold bg-warning g-4 mb-4">Pubblicità: la tua app, a metà prezzo fino a
+          domenica
+        </div>
       </div>
     </div>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
